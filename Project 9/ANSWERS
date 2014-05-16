@@ -1,0 +1,10 @@
+* Number of cache levels
+- Three.  L1, L2, and L3.  I am inclined to think this because there are spikes in the program latency, which is where I believe we switch between caches.
+-At ws = 51200 we switch from L1 to L2.
+-At ws = 409600, we switch from L2 to L3
+-At ws = 13107200 we switch from L3 to main memory
+
+* An estimate for the latency of each level as well main memory
+-The latency for L2 is ~1.2 nanoseconds
+-The latency of L3 is ~4.4
+-The latency for main memory is ~19 nanoseconds

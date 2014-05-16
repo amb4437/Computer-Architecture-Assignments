@@ -1,0 +1,3 @@
+Explain your results here:
+
+In terms of performance, cmov is far better than using jump statements.  As our limit grows, the time it takes our program to produce results increases because, with a higher limit, more numbers in our array will be below the limit, thus using additional jump statements.  Implementing cmov in count 2 eliminates the need for these jump statements, making the time required to run the program the same, regardless of the limit that we give it.

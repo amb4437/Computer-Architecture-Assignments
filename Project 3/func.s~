@@ -1,0 +1,12 @@
+.data       
+testglobal:    .long 0    
+
+.text               
+.global count         
+count:             
+
+	pop %ebx
+	mov %ebx, %ecx
+	push %ecx
+
+	ret

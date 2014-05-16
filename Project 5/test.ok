@@ -1,0 +1,26 @@
+
+::: running t0 :::
+hello
+
+terminated at pc = 18
+
+::: running t1 :::
+reg[1] = 10 0xa
+reg[2] = 20 0x14
+reg[2] = 30 0x1e
+
+terminated at pc = 8
+
+::: running t2 :::
+reg[0] = 5 0x5
+reg[1] = 10 0xa
+reg[1] = 10 0xa
+
+terminated at pc = 11
+
+::: running t3 :::
+reg[0] = 5 0x5
+reg[1] = 10 0xa
+reg[0] = 5 0x5
+
+terminated at pc = 11

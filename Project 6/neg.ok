@@ -1,0 +1,12 @@
+running: x0-x.neg
+initial stack:
+-1
+-100
+final stack:
+100
+running: x0-x.neg
+initial stack:
+-1
+10
+final stack:
+-10

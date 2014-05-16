@@ -1,0 +1,67 @@
+Due date: 2/16/2014 @ 11:59pm
+
+Objective:
+~~~~~~~~~~
+
+Learn how to work with arrays and store data across function calls
+
+Assignment:
+~~~~~~~~~~~
+
+You need to finish the implementation of an x86-32 assembly function "count"
+
+    int count(char str[]);
+
+"count" takes a single argument which is a zero-terminated ASCII string. It
+counts the number of instances of each character in the string and returns
+the ASCII code of the character with the highest frequency for the entire
+history of the function.
+
+"null" (the character with ASCII code 0) doesn't count
+
+Ties are broken by returning the ASCII code with the lowest numerical value.
+
+For example, calling
+
+    count("xay")      returns the ASCII code for 'a'
+
+Now, calling
+
+    count("xb")       returns the ASCII code for 'x'
+
+Now, calling
+
+    count("by")       returns the ASCII code for 'b'
+
+
+Files you're allowed to change:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   func.s     -- contains the implementation of count
+
+Files you're supposed to leave alone:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Makefile   -- rules for compiling and running the program
+   prog.c     -- the main program
+   
+To compile:
+~~~~~~~~~~~
+
+    make
+
+To run test:
+~~~~~~~~~~~~
+
+    make clean test
+
+To make the output less noisy:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+    make -s clean test
+
+To run by hand
+~~~~~~~~~~~~~~
+
+    make
+    ./main

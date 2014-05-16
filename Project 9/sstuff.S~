@@ -1,0 +1,4 @@
+.global doit2
+
+doit2:
+	mov 4(%esp), %eax        // %eax contains a pointer to the data structure.

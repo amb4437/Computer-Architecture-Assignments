@@ -1,0 +1,1 @@
+sstuff.o: sstuff.S

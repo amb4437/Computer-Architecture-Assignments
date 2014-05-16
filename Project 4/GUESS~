@@ -1,0 +1,15 @@
+Question: do you think the performance of your function will depend on
+    the passed limit?
+
+Answer:
+
+I think the higher the limit is, the more times we'll have to jump to our loop that increments the count, and in that sense it will affect our performance.  I do not think that the efficiency of the actual compare function, where we compare our current number to the limit, will change.
+
+Question: which function will perform better? count1 or count2?
+
+Answer:
+
+I am already aware that using cmov is more efficient than jump statements, so I'm guessing count 2 will be more efficient.
+
+
+

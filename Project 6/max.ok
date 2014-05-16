@@ -1,0 +1,28 @@
+running: 0s1s2s1l2l-19>1l0l.2l0l.max
+initial stack:
+-1
+20
+10
+final stack:
+20
+running: 0s1s2s1l2l-19>1l0l.2l0l.max
+initial stack:
+-1
+-20
+-10
+final stack:
+-10
+running: 0s1s2s1l2l-19>1l0l.2l0l.max
+initial stack:
+-1
+-10
+-20
+final stack:
+-10
+running: 0s1s2s1l2l-19>1l0l.2l0l.max
+initial stack:
+-1
+10
+20
+final stack:
+20
